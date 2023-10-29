@@ -35,7 +35,7 @@ router.post(
   update,
 )
 
-router.post('/list', validatorMiddleware, list)
+router.get('/list', validatorMiddleware, list)
 
 router.get('/:id', param('id').isInt().toInt(), validatorMiddleware, get)
 

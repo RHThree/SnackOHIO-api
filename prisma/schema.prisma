@@ -17,6 +17,8 @@ model User {
 
   role UserRole @default(USER)
 
+  imageUrl String?
+
   products Product[]
   admin    Admin?
 
