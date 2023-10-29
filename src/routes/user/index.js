@@ -4,6 +4,6 @@ import product from './product'
 
 const router = express.Router()
 
-router.use('/product', product)
+router.use('/', product)
 
 export default router
