@@ -14,6 +14,7 @@ const developmentSeed = async () => {
         create: {
           email: 'admin@verteo.com',
           name: 'Admin',
+          role: 'ADMIN',
         },
       },
     },

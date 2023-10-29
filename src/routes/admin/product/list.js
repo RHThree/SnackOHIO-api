@@ -2,6 +2,7 @@ import prisma from 'db'
 
 const list = async (req, res) => {
   try {
+    console.log('running')
     const products = await prisma.product.findMany()
 
     res.json(products)
